@@ -12,10 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="main-header p-2">
-      <div class="logo"></div>
+    <header class="main-header fixed top-0 left-0 right-0 h-16">
+      <div class="logo ml-10"></div>
+
       <!-- Navigation Bar -->
-      <nav class="flex p-2 gap-0">
+      <nav class="flex p-2 mr-10">
         <a
           class="border border-black px-4 py-2 border-r-0 rounded-tl-md rounded-bl-md"
           href="#homePage"
@@ -38,10 +39,48 @@
         >
       </nav>
     </header>
+    <main>
+      <!-- Home Page -->
+      <section id="homePage" class="min-h-screen scroll-mt-29">
+        <div class="background absolute inset-0 -z-10 background"></div>
+        <h2 class="text-5xl font-bold ml-32 mt-28 pt-30">
+          Selamat Datang <br />di Website Kami
+        </h2>
+        <p class="mt-2 ml-32 text-2xl text-white">
+          Senang bisa menyambut Anda di sini. <br />Silakan jelajahi layanan
+          <br />dan penawaran kami.
+        </p>
+      </section>
+    </main>
+
+    <!-- Our Profile Page -->
+    <section id="ourprofilePage" class="min-h-screen scroll-mt-25">
+      <h2 class="text-3xl font-bold ml-32 mt-10">Kopi VIBE</h2>
+      <p class="mt-5 ml-32">
+        Di Kopi Vibe, kami meracik kopi dengan rasa yang jujur <br />dan suasana
+        yang akrab. Tempat singgah yang bikin kamu betah, <br />entah datang
+        sendiri atau bareng teman.
+      </p>
+      <p class="mt-5 ml-32">
+        Didirikan pada 2023, Kopi Vibe hadir sebagai tempat ngopi <br />yang
+        simpel, nyaman, dan konsisten cocok untuk kerja ringan maupun hangout.
+      </p>
+      <div class="gambar ml-20"></div>
+    </section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolioPage" class="ml-32 mt-10 min-h-screen scroll-mt-25">
+      <h2 class="text-3xl font-bold">Portfolio</h2>
+      <p class="mt-2">View our latest projects and achievements.</p>
+    </section>
+
+    <!-- Message Us Page -->
+    <section id="messageUsPage" class="ml-32 mt-10 min-h-screen scroll-mt-25">
+      <h2 class="text-3xl font-bold">Message Us</h2>
+      <p class="mt-2">Get in touch with us for inquiries or collaborations.</p>
+    </section>
 
     <hr />
-
-    <main></main>
 
     <footer></footer>
     <!-- JavaScript Exsternal -->
