@@ -1,0 +1,13 @@
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url('../img/Logo_revou.png');
+    background-size: cover;
+    
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
