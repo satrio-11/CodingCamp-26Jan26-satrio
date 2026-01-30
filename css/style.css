@@ -12,10 +12,9 @@
     justify-content: space-between;
 }
 .gambar{
-    width: 360px;
-    height: 360px;
     background: no-repeat;
     background-size: cover;
+    background-position: center;
     background-image: url('https://png.pngtree.com/template/20190626/ourmid/pngtree-property-and-construction-logo-design-image_220093.jpg');
 }
 .background{

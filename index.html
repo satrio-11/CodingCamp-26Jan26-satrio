@@ -79,17 +79,25 @@
 
     <main>
       <!-- Home Page -->
-      <section id="homePage" class="min-h-screen scroll-mt-24 pt-24 md:pt-28">
-        <div class="background absolute inset-0 -z-10 opacity-80"></div>
+      <section id="homePage" class="bg-white">
+        <div
+          class="relative mx-auto max-w-[1366px] overflow-hidden h-[calc(100vh-4rem)] max-h-[620px] min-h-[420px]"
+        >
+          <div class="background absolute inset-0"></div>
 
-        <div class="mx-auto max-w-6xl px-4 md:px-6 text-center py-35">
-          <h2 class="text-3xl md:text-5xl font-bold" id="welcome-speech">
-            Selamat Datang di Website Kami
-          </h2>
-          <p class="mt-3 text-base md:text-2xl">
-            Senang bisa menyambut Anda di sini. Silakan jelajahi layanan dan
-            penawaran kami.
-          </p>
+          <div
+            class="relative z-10 h-full flex items-center justify-center px-4 md:px-6 text-center"
+          >
+            <div class="max-w-3xl">
+              <h2 class="text-3xl md:text-5xl font-bold" id="welcome-speech">
+                Selamat Datang di Website Kami
+              </h2>
+              <p class="mt-3 text-base md:text-2xl">
+                Senang bisa menyambut Anda di sini. Silakan jelajahi layanan dan
+                penawaran kami.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -99,7 +107,6 @@
         <div class="grid gap-10 md:grid-cols-2 items-start">
           <div>
             <h2 class="text-3xl font-bold">PT Nusa Bangun Sejahtera</h2>
-
             <p class="pt-5">
               Visi: “Menjadi kontraktor pilihan untuk renovasi dan pembangunan
               yang rapi, tepat waktu, dan transparan.”
@@ -151,7 +158,7 @@
     </section>
 
     <!-- Portfolio Page -->
-    <section id="portfolioPage" class="py-16 min-h-screen scroll-mt-10 py-16">
+    <section id="portfolioPage" class="scroll-mt-24 py-16">
       <div class="mx-auto max-w-6xl px-6">
         <div class="">
           <h2 class="text-3xl font-bold">Portfolio</h2>
